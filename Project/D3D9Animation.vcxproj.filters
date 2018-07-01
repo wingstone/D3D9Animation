@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Character">
+      <UniqueIdentifier>{d1b0717b-5ab8-4cc6-9bb9-db8a3ad9355f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commen">
+      <UniqueIdentifier>{c6807e68-bd37-40f9-a6c6-339065e59587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Head">
+      <UniqueIdentifier>{9bc54fb1-30a6-4e95-8935-89976a4d9db5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Head\Face">
+      <UniqueIdentifier>{cd0d1fa1-5c90-4303-88d2-af0f11303154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mesh">
+      <UniqueIdentifier>{26b508ca-c649-461b-be1d-436d5bf3cae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InputCtrl">
+      <UniqueIdentifier>{bc773906-a261-48d1-9448-609701860d64}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Head.cpp">
+      <Filter>Source Files\Head</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Source Files\Commen</Filter>
+    </ClCompile>
+    <ClCompile Include="MorphMesh.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinMesh.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticMesh.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Face.cpp">
+      <Filter>Source Files\Head\Face</Filter>
+    </ClCompile>
+    <ClCompile Include="Commen.cpp">
+      <Filter>Source Files\Commen</Filter>
+    </ClCompile>
+    <ClCompile Include="InputCtrl.cpp">
+      <Filter>Source Files\InputCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="InverseKinematic.cpp">
+      <Filter>Source Files\Head</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Head.h">
+      <Filter>Source Files\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="Commen.h">
+      <Filter>Source Files\Commen</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Source Files\Commen</Filter>
+    </ClInclude>
+    <ClInclude Include="MorphMesh.h">
+      <Filter>Source Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinMesh.h">
+      <Filter>Source Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticMesh.h">
+      <Filter>Source Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Source Files\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Face.h">
+      <Filter>Source Files\Head\Face</Filter>
+    </ClInclude>
+    <ClInclude Include="InputCtrl.h">
+      <Filter>Source Files\InputCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="InverseKinematic.h">
+      <Filter>Source Files\Head</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\Effect\Combine.fx">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Comclusion.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
